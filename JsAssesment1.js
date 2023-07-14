@@ -85,22 +85,6 @@ function remDuplicates(arr){
 arr.length = 0;
 console.log(arr)
 
----------------------------------------------------------------------------
-//Question 15
----------------------------------------------------------------------------
-let str = "This is my sentence";
-let output = reverseWords(input);
-console.log(output);
-
-  
-  function reverseWords(str) {
-  let words = str.split(" ");
-  let reversedWords = words.map((word) => word.split("").reverse().join(""));
-  return reversedWords.join(" ");
-}
-
-
-
 
 ---------------------------------------------------------------------------
 //Question 15
