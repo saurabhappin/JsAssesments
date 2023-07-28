@@ -22,3 +22,6 @@ https://docs.google.com/document/d/1NOaU36XRxntI5wJcLndBOREGwuJNlVA6T_QU3SlsH6s/
 ---------------------------------
 Please find the output and theoretical questions of Assessment 4 here -
 https://docs.google.com/document/d/1DHsrdkdRtaBCTeSvJwi3bKDootIk6bOfTakzNRrozk8/edit?usp=sharing
+
+Output of Clock:
+basic-html-clock.saurabhsrivas35.repl.co
