@@ -36,21 +36,22 @@ Create an object `calculator` with three methods:
 -`sum()` returns the sum of saved values. 
 -`mul()` multiplies saved values and returns the result.
 ------------------------------------------------------------------------------------------------------------------------------*/
+//making the object cal
 cal = {
     a: null,
     b: null,
-    read: function(a,b){
+    read: function(a,b){ //reading values and setting in cal object.
         this.a=a;
         this.b=b;
     },
-    sum: function(){
-        return parseInt(this.a)+parseInt(this.b);
-    },
-    mul: function(){
+    sum: function(){ //defining sum function
+        return parseInt(this.a)+parseInt(this.b);  //using parseInt because through prompt, we get string values
+    },                                               //so to add them, we first convert into number
+    mul: function(){ //defining mul function
         return this.a*this.b;
     }
 }
-cal.read(prompt("Enter first value: "), prompt("Enter second value: "))
+cal.read(prompt("Enter first value: "), prompt("Enter second value: ")) 
 console.log(cal.sum())
 console.log(cal.mul())
 
@@ -71,7 +72,7 @@ Write a JavaScript program to create a clock.
 
 <div id="txt"></div>
 
-<script> //js code begins
+<script> 
 function startTime() {
 
   const today = new Date();
@@ -102,7 +103,7 @@ function startTime() {
     document.getElementById('txt').innerHTML =  currentTime;
     setTimeout(startTime, 1000);
 }
-</script>   ///js code ends
+</script> 
 
 </body>
 </html>
