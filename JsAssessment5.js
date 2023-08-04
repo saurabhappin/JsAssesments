@@ -54,4 +54,4 @@ Array.prototype.newReduce = function (callback, initialValue) {
 //checking if our newReduce works fine
 arr = [1,2,3,4,5,6,7,8,9]
 console.log(arr.newReduce((acc,item)=>acc+item))
-//Expected output = sum of all ements = 20
+//Expected output = sum of all ements = 45
