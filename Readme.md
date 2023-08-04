@@ -25,3 +25,8 @@ https://docs.google.com/document/d/1DHsrdkdRtaBCTeSvJwi3bKDootIk6bOfTakzNRrozk8/
 
 Output of Clock:
 basic-html-clock.saurabhsrivas35.repl.co
+
+##Assessment 5
+---------------------------------
+Please find the output and theoretical questions of Assessment 5 here - 
+https://docs.google.com/document/d/1aNOjjJ71wxDQvNex3DhEhV6B2CyoKhgaWa2eHYEOGV0/edit?usp=sharing
